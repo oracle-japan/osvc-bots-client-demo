@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Oracle Digital Assistant チャットボット・デモ</title>
+    <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+    <meta name="viewport" content="viewport-fit=cover, initial-scale=1.0"/>
+    <link rel="icon" type="image/x-icon" href="css/images/favicon.ico"/>
+    <meta name="apple-mobile-web-app-title" content="Chatbot Demo"/>
+<!-- injector:theme -->
+<link rel="stylesheet" href="css/light/0.0.1/web/light.min.css" id="css" />
+<!-- endinjector -->
+    <link rel="stylesheet" href="css/app.css"/>
+  </head>
+  <body class="oj-web-applayout-body">
+    <div id="globalPage" class="oj-web-applayout-page">
+      <header role="banner" class="oj-web-applayout-header">
+        <div class="oj-web-applayout-max-width oj-flex-bar oj-sm-align-items-center">
+          <div class="oj-flex-bar-center-absolute">
+            <img id="brandingLogo" src="css/images/oracle_logo_ffffff.png" height="50"/>
+          </div>
+        </div>
+      </header>
+      <div class="oj-web-applayout-content">
+        <div style="padding:40px 10px; margin:-10px -10px 0 -10px; background-color:#f1efed;">
+          <div class="oj-web-applayout-max-width">
+            <h1 style="text-align:center; margin-bottom:20px;">
+              Oracle Digital Assistant<br/>
+              チャットボット・デモ
+            </h1>
+            <div class="oj-flex">
+              <div class="oj-flex-item oj-sm-12 oj-md-8" style="margin:auto">
+                <p>Oracle Digital Assistant は、AI を活用したチャットボットの構築をシンプルにするプラットフォームとツールを提供します。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="margin-top:40px">
+          <div class="oj-web-applayout-max-width oj-flex oj-sm-flex-direction-column">
+            <div class="oj-flex-item oj-sm-12 oj-md-6 oj-flex" style="margin:0 auto 1rem">
+              <oj-button id="openChatButton" class="oj-flex-item oj-sm-12 oj-button-primary oj-button-xl" onclick="loadChat(event)">
+                <span style="font-size:1.2rem">チャットを開始</span>
+              </oj-button>
+            </div>
+            <div class="oj-flex-item oj-sm-12 oj-md-6 oj-flex" style="margin:0 auto">
+              <oj-button class="oj-flex-item oj-sm-12 oj-button-primary oj-button-xl" onClick="clearChat(event)">
+                <span style="font-size:1.2rem">チャットをクリア</span>
+              </oj-button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer role="contentinfo" class="oj-web-applayout-footer" style="padding-top:12px; padding-bottom:0; border-top-width:0">
+        <div style="background-color:#312d2a; padding:1rem 0;">
+          <div class="oj-text-secondary-color oj-text-sm oj-web-applayout-max-width">
+            <div style="color:#fcfbfa;text-align:center">©2019 Oracle</div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script type="text/javascript" src="js/libs/require/require.js"></script>
+    <script type="text/javascript" src="https://static.oracle.com/cdn/jet/v7.2.0/default/js/bundles-config.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/bots.js"></script>
+  </body>
+</html>

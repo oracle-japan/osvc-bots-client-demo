@@ -1,0 +1,1 @@
+webpackJsonp([50],{918:function(e,t,o){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default=function(e,t,o,r){return d[e]};var d={lastWeek:"dddd [tuần trước vào lúc] LT",yesterday:"[hôm qua vào lúc] LT",today:"[hôm nay vào lúc] LT",tomorrow:"[ngày mai vào lúc] LT",nextWeek:"dddd [vào lúc] LT",other:"L"};e.exports=t.default}});

@@ -1,0 +1,1 @@
+webpackJsonp([56],{911:function(e,M,Y){"use strict";Object.defineProperty(M,"__esModule",{value:!0});var t=(0,function(e){return e&&e.__esModule?e:{default:e}}(Y(206)).default)({LT:"HH:mm",LTS:"HH:mm:ss",L:"DD.MM.YYYY",LL:"D MMMM YYYY р.",LLL:"D MMMM YYYY р., HH:mm",LLLL:"dddd, D MMMM YYYY р., HH:mm"});M.default=t,e.exports=M.default}});

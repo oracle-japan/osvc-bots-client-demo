@@ -1,0 +1,1 @@
+webpackJsonp([173],{793:function(e,t,d){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default=function(e,t,d,o){return a[e]};var a={lastWeek:"[pasinta] dddd [je] LT",yesterday:"[hieraŭ je] LT",today:"[hodiaŭ je] LT",tomorrow:"[morgaŭ je] LT",nextWeek:"dddd [je] LT",other:"L"};e.exports=t.default}});
